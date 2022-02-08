@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mountains of Christmas', cursive;
+    color: #20012a;
+}
+
+a.nav-link {
+    color:#20012a;
+}
