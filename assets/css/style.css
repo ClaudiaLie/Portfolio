@@ -7,11 +7,21 @@ body {
     color: #20012a;
 }
 
+.btn {
+    background-color: #20012a !important;
+    color: #fff !important;
+    padding: 12px !important;
+}
+
+.btn:hover {
+    background-color: #2e4e34 !important;
+}
+
 a.nav-link {
     color:#20012a;
 }
   
-i {
+.social i {
     opacity: 0;
     font-size: 18px;
     color: #fff;
@@ -37,7 +47,7 @@ i {
     height: 200px;
     background-color: #fff;
     overflow: hidden;
-    margin-bottom: 4px;
+    margin: 14px;
 }
 
 .container .card h2 {
@@ -94,6 +104,14 @@ i {
 .container .card .social i:nth-of-type(2) {
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
+}
+.container .card .social i:nth-of-type(3) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+.container .card .social i:nth-of-type(4) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
 }
 .container .card:hover i {
     opacity: 1;

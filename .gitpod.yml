@@ -14,5 +14,5 @@ vscode:
     - ms-toolsai.jupyter
 
 ports:
-  - port: 3306
+  - port: 33060
     onOpen: open-browser
