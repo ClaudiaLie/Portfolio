@@ -1,6 +1,8 @@
 image:
   file: .gitpod.dockerfile
 tasks:
+  - name: Start web server
+    init: python -m http.server 33060
   - init: . ${GITPOD_REPO_ROOT}/.vscode/init_tasks.sh
     command: /home/gitpod/.pg_ctl/bin/pg_start > /dev/null
   - command: . ${GITPOD_REPO_ROOT}/.vscode/uptime.sh &
