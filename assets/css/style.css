@@ -21,7 +21,7 @@ body {
 .office img {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 10%;
 }
 
 #desk {
@@ -31,7 +31,6 @@ body {
 
 #plant {
     width: 100%;
-    margin-left: 5%;
 }
 
 .btn {
