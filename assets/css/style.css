@@ -7,11 +7,13 @@ body {
     padding: 0;
     font-family: 'Mountains of Christmas', cursive;
     color: #20012a;
+    background-image: linear-gradient( #e6d9e8, #57245e);
+
 }
 
 .office {
+    overflow: hidden;
     position: relative;
-    background-image: linear-gradient( #e6d9e8, #57245e);
     width: 100%;
     height: 80vh;
     display: flex;
@@ -26,7 +28,6 @@ body {
 
 #desk {
     width: 100%;
-    margin-right: 0;
 }
 
 #plant {
