@@ -242,3 +242,45 @@ a.nav-link {
         font-size: 50px;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    /* For extra small screens */
+    .container .card {
+        width: 270px;
+        height: 160px;
+    }
+
+    .container .card h2 {
+        position: absolute;
+        bottom: 4px;
+        margin-right: 9px;
+        margin-left: 10px;
+        font-size: 40px;
+        color:#e6d9e8;
+    }
+
+    .container .card p {
+        position: absolute;
+        top: 8px;
+        right: 9px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        writing-mode: vertical-rl;
+    }
+
+    .container .card .social {
+        left: 90px;
+        top: 0px;
+        width: 70px;
+        height: 76px;
+    }
+
+    .container .card .pic {
+        width: 203px;
+        height: 159px;
+        background-size: 100% 100%;
+        top: 0px;
+        margin-left: 0px;
+        position: absolute;
+    }
+}
